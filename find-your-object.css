@@ -1,0 +1,98 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-family: "STKaiti";
+	background-color: #66D9EF;
+}
+p{
+	z-index: 666;
+}
+#mainBox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin-top: 7%;
+}
+#mainBox div{
+	display: inline-block;
+	width: 40%;
+	height: 35%;
+	margin-top: 10%;
+	margin-bottom: 7%;
+	background-color: lightblue;
+	box-shadow: 0 0 20rem 2rem #0378CA;
+	font-size: 20rem;
+	line-height: 500%;
+	text-align: center;
+	opacity: .8;
+	border-radius: 10rem;
+}
+.search1{
+	float: left;
+	margin-left: 7%;
+}
+.search2{
+	float: right;
+	margin-right: 7%;
+}
+#mainBox div:active{
+	box-shadow: 0 0 10rem 5rem #0378CA;
+	transition: .1s;
+}
+.contentBox{
+	display: none;
+	position: absolute;
+	width: 90%;
+	height: 85%;
+	top: 50%;
+	margin-top: -75%;
+	left: 50%;
+	margin-left: -45%;
+	background-color: #F2F2F2;
+	opacity: .9;
+	border-radius: 30rem;
+	font-size: 16rem;
+}
+/*天气*/
+#weather input{
+	text-indent: 10rem;
+}
+#putInf{
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	top: 50%;
+	margin-top: -45%;
+	text-align: center;
+}
+#putInf input{
+	width: 70%;
+}
+.btn{
+	width: 60%;
+	margin: 10rem auto;
+	border: 1rem solid #666;
+	border-radius: 10rem;
+}
+.btn:active{
+	background-color: lightblue;
+	transition: .1s;
+}
+/*用来显示信息*/
+#showContent{
+	position: absolute;
+	display: none;
+	width: 100%;
+	top: 20%;
+	text-align: center;
+}
+
+/*快递*/
+#express{
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport" 
+	content="height = [pixel_value | device-height],
+		width = [pixel_value | device-width ] ,   
+	  	initial-scale = float_value ,   
+	  	minimum-scale = float_value ,   
+	  	maximum-scale = float_value ,   
+	  	user-scalable = [yes | no] ,   
+	  	target-densitydpi = [dpi_value | device-dpi | high-dpi | medium-dpi | low-dpi]  "
+	>
+	<link rel="stylesheet" href="css/Normalize.css">
+	<link rel="stylesheet" href="css/find-your-object.css">
+	<script src="js/find-your-object.js"></script>
+	<title>欢迎查询~</title>
+</head>
+<body>
+	<div id="mainBox">
+		<div class="search1"><p>天气预报</p></div>
+		<div class="search2"><p>快递查询</p></div>
+		<div class="search1"><p>空气指数</p></div>
+		<div class="search2"><p>I P 查询</p></div>
+	</div>
+	<!-- 天气 -->
+	<div id="weather" class="contentBox">
+		<div id="putInf">
+			<p>请输入城市<input type="text" name="city" value=""></p>
+			<div id="btn1" class="btn">确定</div>
+			<div id="btn2" class="btn">返回</div>
+		</div>
+		<div id="showContent">
+			<p>城市：</p>
+			<p>时间：</p>
+			<p>天气：</p>
+			<p>气温：</p>
+			<div id="btn3" class="btn">返回</div>
+		</div>
+	</div>
+	<!-- 快递 -->
+	<div id="express" class="contentBox">
+		
+	</div>
+	<!-- 空气 -->
+	<div id="air" class="contentBox">
+
+	</div>
+	<!-- IP -->
+	<div id="IP" class="contentBox">
+
+	</div>
+</body>
+</html>
